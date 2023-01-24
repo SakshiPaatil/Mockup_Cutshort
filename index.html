@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login to My Workspace</title>
+  <style>
+    /* CSS styles for the login page */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    #login-form {
+      width: 1500px;
+      height: 3000px;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+    input[type="text"], input[type="password"] {
+      width: 25%;
+      padding: 12px 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      display: block;
+      margin: 0 auto;
+    }
+    input[type="submit"] {
+      background-color: blue;
+      color: #fff;
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 3px;
+      border: none;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .next-page-button {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: blue;
+        border-radius: 50%; /* make the button circular */
+        width: 50px;
+        height: 50px;
+        line-height: 50px; /* center the text vertically */
+        display: block;
+        margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+   
+  <form id="login-form" action="login.php" method="post">
+
+    <h1>    </h1><br>
+    <h1>    </h1><br>
+    <button class="next-page-button" onclick="window.location.href='nextpage.html'">1</button>
+    
+<center><h1>lets set up a home for all your work</h1></center>
+<center><h2>You can always workspace later</h2></center>
+    <center><label>Full Name:</label></center><br>
+    <input type="text" placeholder= "steve jobs" name="UserName" required><br>
+    <center><label>Display Name:</label></center><br>
+    <input type="password" Placeholder="steve" name="Display Name" required><br>
+    <input type="submit" value="Create Workspace">
+    </form>
+    </body>
